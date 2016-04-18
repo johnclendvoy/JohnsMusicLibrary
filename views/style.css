@@ -1,0 +1,157 @@
+body {
+    font-family: "Viga", "Arial Black", "Helvetica", sans-serif;
+    background-color: #BEDAC4;
+    font-size: 16px;
+    padding: 0px; 
+}
+  
+#navBar {
+  	margin-right: 0px;
+    padding: 10px;
+    top: 0px;
+    right:0px;
+    left:0px;
+    z-index: 100;
+   	position: absolute;
+    background: #2B803E; 
+}
+
+*:not(#navBar) {
+	border-radius: 4px;
+}
+
+.button{
+  	font: "Viga";
+  	font-family: "Viga";
+    margin-right: 10px;
+    font-size: 120%;
+    color: #BEDAC4; 
+    background-color: #055417;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #055417;
+}
+
+.button:hover{
+  	background-color: #BEDAC4;
+  	border-color: #BEDAC4;
+  	color: #055417;
+}
+
+.borderlessButton {
+    font: "Viga";
+    font-family: "Viga";
+    margin-right: 10px;
+    font-size: 120%;
+    color: #00400E;
+    background-color:  #2B803E;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2B803E;
+}
+
+.borderlessButton:hover {
+    color: #BEDAC4; 
+}
+
+.quickButton{
+	font: "Viga";
+  	font-family: "Viga";
+    font-size: 100%;
+    color: #000000;
+    background-color: #888888;
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #888888;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	float:left;
+	transform: translateY(-10px);
+
+	-webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+.quickButton:hover {
+	font-size:120%;
+}
+
+#topButton {
+	float: right;
+	transform: translateY(-10px);
+}
+
+#titleButton{
+  	font-size: 200%;
+}
+
+#currentInfoButton {
+	color: #00400E;
+    background-color: #50A061;
+	border-color: #50A061;
+}
+
+form, .container {
+  	display:inline-block;
+  	margin-top: 10px;
+  	padding:10px;
+  	background: #2B803E; 
+}
+
+.choices {
+	display:inline-block;
+	margin-top: 10px;
+	padding:10px;
+  	background: #2B803E; 
+}
+
+#nav {
+  	background: #ff9999;
+  	display: inline-block;
+}
+
+.socialLinks {
+	padding: 15px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	background:#444444;
+}
+
+.artistCard {
+	width: 50%;
+	padding: 20px;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 40px;
+	background: #888888; /* default bg */	
+}
+
+.videoBox{
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	background: #000000;
+}
+
+.videoBox iframe {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
+.videoContainer {
+	width: 100%;
+}
+
+.artistTitle {
+	font-size: 2em;
+	margin-top:0px;
+}
